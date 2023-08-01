@@ -1,0 +1,89 @@
+/* Estilos para index.html */
+
+/* Estilos para resetear valores de navegadores */
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+/* Estilos para el cuerpo de la página web */
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Estilos para el contenedor */
+div.container{
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    text-align: center;
+    margin: auto;
+}
+
+/* Estilos para el header */
+header{
+    margin:10px auto 10px auto;
+    /*border: 1px solid black;*/
+    background-color: blanchedalmond;
+}
+
+/* Estilos para el encabezado principal */
+header h1{
+    text-transform: uppercase;
+}
+
+/* Estilos de la seccion principal de la página */
+main{
+    max-width: 100vw;
+    font-size: 1.2rem;
+    background-color: rgb(244, 244, 244);
+    text-align: center;
+}
+
+/* Estilos para los artículos */
+main article{
+    background-color: rgb(220, 220, 240);
+    margin: 5px auto 5px auto;
+   /*border: 1px solid black;*/
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+/* Estilos para los encabezados secundarios */
+main article h2{
+    margin-bottom: 3px;
+}
+
+/* Estilos para las listas */
+main article ul{
+    list-style-type: none;
+    text-align: left;
+    margin-bottom: 3px;
+}
+
+/* Estilos para el párrafo */
+main article p{
+    text-align: justify;
+}
+
+/* Estilos para la sección de contenido*/
+main aside{
+    background-color: rgb(201, 198, 201);
+    width: 50%;
+    margin: 5px auto 5px auto;
+    border: 1px solid black;
+}
+
+/* Estilos para los contenedores de imágenes y video */
+main aside figure{
+    margin: 5px auto 5px auto;
+}
+
+/* Estilos para el pie de página */
+main footer{
+    background-color: rgba(180, 74, 74, 0.798);
+}
