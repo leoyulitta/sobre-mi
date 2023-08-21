@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div#container{
+    background-color: rgba(178, 186, 187, 0.5);
+    width: 100vw;    
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+}
+div#container header h1{
+    text-transform: uppercase;
+}
+section{
+    position: relative;
+}
+section div#calculadora{
+    position: relative;
+    background-color: rgba(178, 186, 187, 0.5);
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 30px auto;
+    width: 30%;
+    height: 30%;
+}
+section div#calculadora input{
+    display: block;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px auto 2px auto;
+    width: 100%;
+}
+section div#calculadora ul,ol{
+    list-style-type:none;
+}
+section div#calculadora ul#operadores{
+    margin: 5px auto 5px auto;
+    position: relative;
+}
+a{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+}
+section div#calculadora ul#operadores>li>a{
+    display: block;
+    color: black;
+    background-color: aqua;
+    border:1px solid black;
+    border-radius: 5px;
+    margin: 0px auto 0px auto;
+}
+ul#operaciones{
+    display: none;
+    position: relative;
+    width: 202px;
+    padding: 0;
+    margin: 10px auto 10px auto;
+}
+ul#operaciones>li{
+display: inline-block;
+width: 47px;
+}
+ul#operaciones>li>a{
+    display: block;
+    width: 100%;
+}
+section div#calculadora ul#operadores>li:hover>ul#operaciones{
+    display: block;
+}
+button#btnResultado{
+    width: 60px;
+    height: 30px;
+    background-color: rgb(238, 64, 11);
+    margin-bottom: 2px;
+}
+button#btnReset{
+    width: 60px;
+    height: 30px;
+    background-color: rgb(238, 189, 11);
+    margin-bottom: 2px;
+}
+button#btnResultado:hover{
+    width: 58px;
+    height: 28px;
+    background-color: rgb(201, 51, 6);
+    margin-bottom: 4px;
+}
+button#btnReset:hover{
+    width: 58px;
+    height: 28px;
+    background-color:  rgb(208, 165, 8);
+    margin-bottom: 4px;
+}
+ul#operaciones>li>a:hover{
+    background-color: gray;
+    color: black;
+}
+section div#resultado{
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+    padding:5px;
+    width:17%;
+    left: 41%;
+    top: -29px;
+}
+section div#resultado input{
+    width: 100%;
+    text-align: end;
+    font-weight: bolder;
+}

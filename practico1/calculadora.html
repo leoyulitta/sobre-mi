@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/sobre-mi/practico1/style.css">
+    <script src="/sobre-mi/practico1/calculadora.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>Calculadora</h1>
+        </header>
+        <section>
+            <div id="calculadora">
+                <input type="text" id="op_uno">
+                <input type="text" id="op_dos">
+                <ul id="operadores">
+                    <li><a href="#">Operaciones</a>
+                        <ul id="operaciones">
+                            <li><a id="suma" href="#">+</a></li>
+                            <li><a id="resta" href="#">-</a></li>
+                            <li><a id="producto" href="#">x</a></li>
+                            <li><a id="resto" href="#">/</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <button type="button" id="btnResultado">=</button> 
+                <button type="button" id="btnReset">AC</button> 
+            </div>
+            <div id="resultado">
+                <h2>Resultado</h2>
+                <input type="text" id="campoResultado">
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
