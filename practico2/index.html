@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/sobre-mi/practico2/css/main.css">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>Piedra papel tijera</h1>
+        </header>
+        <section>
+            <div id="login">
+                <label for="nombreParticipante">Jugador</label>
+                <input type="text" id="nombreParticipante" value="" autofocus>
+                <input type="button" value="entrar" id="botonentrar">
+            </div>
+            <div id="contadores">
+                <label for="contadorParticipante">Participante</label>
+                <input type="text" id="contadorParticipante" class="cont" value="0" readonly size="1">
+                <label for="contadorgral">Total</label>
+                <input type="text" id="contadorgral" class="cont" value="0" readonly size="1">
+                <label for="contadorPc">PC</label>
+                <input type="text" id="contadorPc" class="cont" value="0" readonly size="1">
+            </div>
+            <div id="btnjugadas">
+                <input type="image" src="/sobre-mi/practico2/img/piedra.jpg" alt="piedra" id="botonPiedra" width="60"
+                    height="60" class="btnjugada" disabled>
+                <input type="image" src="/sobre-mi/practico2/img/papel.png" alt="papel" id="botonPapel" width="60"
+                    height="60" class="btnjugada" disabled>
+                <input type="image" src="/sobre-mi/practico2/img/tijera.png" alt="tijera" id="botonTijera" width="50"
+                    height="60" class="btnjugada" disabled>
+            </div>
+            <div id="btn">
+                <input type="button" value="jugar" id="botonjugar" disabled>
+                <input type="button" value="reiniciar" id="botonreiniciar" disabled>
+            </div>
+        </section>
+    </div>
+    <script src="/sobre-mi/practico2/js/main.js"></script>
+</body>
+
+</html>
