@@ -86,6 +86,16 @@ input.btnjugada {
     box-shadow: inset -0.1em -0.1em 0.15em rgba(0, 0, 0, 0.8), 0.3em 0.3em 0.28em rgba(0, 0, 0, 0.3);
 }
 
+input.btnjugada:disabled {
+    position: relative;
+    box-shadow: inset -0.1em -0.1em 0.15em rgba(0, 0, 0, 0.8), 0.4em 0.4em 0.15em rgba(0, 0, 0, 0.3);
+    width: 48px;
+    height: 48px;
+    /* opacity: 0; */
+    filter:grayscale(100%) brightness(0.5);
+    /* transition: width, height 0.3s linear; */
+}
+
 input.btnjugada:hover {
     position: relative;
     box-shadow: inset -0.1em -0.1em 0.15em rgba(0, 0, 0, 0.8), 0.4em 0.4em 0.15em rgba(0, 0, 0, 0.3);

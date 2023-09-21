@@ -4,31 +4,42 @@
 ## Descripcion  
 
 
-El proyecto comprende el famoso juego de piedra, papel y tijera a modo de página web.
+El proyecto comprende el famoso juego de piedra, papel y tijera a modo de pï¿½gina web.
 
-Para el mismo se han utilizado los lenguajes de programación HTML,Js y Css.
+Para el mismo se han utilizado los lenguajes de programaciï¿½n HTML,Js y Css.
 
-Como editor de código se ha utlizado VS Code y extensiones para el mismo.
+Como editor de cï¿½digo se ha utlizado VS Code y extensiones para el mismo.
 
 ## Instrucciones
 
-- Para comenzar el juego el participante debe ingresar su nombre y presionar el botón entrar.
+- Para comenzar el juego el participante debe ingresar su nombre y presionar el botï¿½n entrar.
 
-- Luego debe elegir una de las tres opciones: piedra, papel o tijera y presionar el botón jugar.
+- Luego debe elegir una de las tres opciones: piedra, papel o tijera y presionar el botï¿½n jugar.
 
-- Automaticamente la opción de juego del otro participante se elegirá de forma aleatoria.
+- Automaticamente la opciï¿½n de juego del otro participante se elegirï¿½ de forma aleatoria.
 
-- Cada vez que finalice una partida, los contadores de cada jugador se actualizarán automáticamente.
+- Cada vez que finalice una partida, los contadores de cada jugador se actualizarï¿½n automï¿½ticamente.
 
-- Al completarse las cinco partidas se elegirá al ganador de la ronda.
+- Al completarse las cinco partidas se elegirï¿½ al ganador de la ronda.
 
 ## Reglas de juego
 
 - La ronda completa comprende cinco partidas.
 
-- Para ganar la ronda el participante deberá conseguir tres victorias.
+- Para ganar la ronda el participante deberï¿½ conseguir tres victorias.
 
-- En el caso de no conseguir ninguno de los participantes las tres victorias no habrá ganador y se jugará una nueva ronda.
+- En el caso de no conseguir ninguno de los participantes las tres victorias no habrï¿½ ganador y se jugarï¿½ una nueva ronda.
 
 - "Piedra" gana a "tijera" - "papel" gana a "piedra" - "tijera" gana a "papel".
+
+## Detalles de implementaciÃ³n
+
+- ObtenciÃ³n de los elementos que forman el DOM de acuerdo a su id, para asignar escuchadores de eventos.
+- ImplementaciÃ³n de escuchadores de eventos para diferentes tipos de inputs y botones, para cada tipo de acciÃ³n que realice el usuario.
+- ImplementaciÃ³n de diferentes funciones asociadas a los escuchadores de eventos tales como juagada de usuario, registro de usuario, reinicio de juego.
+- ImplementaciÃ³n de la funciÃ³n para conocer al ganador de cada partida y de la ronda de acuerdo a los valores devueltos por la funcion de jugada de usuario y jugada de la pc(esta Ãºltima es aleatoria).
+- Se implementan reglas de estilo css para diferentes estados de los botones e inputs como ser habilitados y deshabilitados.
+- Se implementan diferentes acciones de seguridad como prohibir que el campo de nombre quede vacÃ­o o se introduzca un espacio en blanco.
+- Se implementa medida de seguridad que prohibe jugar sin elegir el tipo de jugada.
+
 
